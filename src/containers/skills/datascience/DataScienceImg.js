@@ -1,10 +1,9 @@
-import React, {useRef,useEffect } from "react";
+import React, {useRef,useEffect,Component } from "react";
 import lottie from 'lottie-web';
-import { Component } from "react";
-import banner from "./greeting-01.svg"
+import data from "./data.svg"
 
 //for animated svgs use json file
-// export default function BannerImg(){
+// export default function DataScienceImg(){
 //     const container = useRef(null)
 //     useEffect(() => {
 //       lottie.loadAnimation({
@@ -12,7 +11,7 @@ import banner from "./greeting-01.svg"
 //         renderer: 'svg',
 //         loop: true,
 //         autoplay: true,
-//         animationData: require('./banner.json')
+//         animationData: require('./data.json')
 //       })
 //     }, [])
 //     return (
@@ -20,19 +19,21 @@ import banner from "./greeting-01.svg"
 //         <div className="container" ref={container}></div>
 //       </div>
 //     );
+  
 // }
 
+
 //for static svgs
-class BannerImg extends Component {
+class DataScienceImg extends Component {
   render() {
     return (
       <div className="App">
         <div className="container">
-      <img src={banner} alt="" width="550" />
+      <img src={data} alt="" width="450"/>
       </div>
       </div>
     );
   }
 }
 
-export default BannerImg;
+export default DataScienceImg;
