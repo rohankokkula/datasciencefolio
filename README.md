@@ -51,11 +51,7 @@ To view a live example, **[click here](https://rohankokkula.netlify.app/)**
 
 # Customize it to make your own portfolio ✏️
 
-In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
-
-### package.json
-
-Open this file, which is in the main cloned directory, choose any "name" and change "homepage " to `https://<your-github-username>.github.io`. Do not forget the `https://`, otherwise fonts will not load.
+In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **src/portfolio.js**, **src/assets**,**src/assets/logo** and **src/App.js**.
 
 ### Personal Information
 
@@ -75,7 +71,66 @@ const socialMediaLinks = {
 ...
 ```
 
-You can change the personal information, experience, education, social media, certifications, blog information, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
+You can change the personal information, experience, education, social media, certifications, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
+
+If you want to play around with alignment or CSS, the specific component's css is present in the same folder.
+
+# Assets
+
+So basically I demonstrated 2 types of visual graphics.
+- Animated graphics([lottiefiles](https://lottiefiles.com/))
+  - In order to use your own animated graphics, 
+    - go to [lottiefiles](https://lottiefiles.com/) 
+    - search your favourite lottie(animation)
+    - Download the `JSON` version of animated file
+    - Now you can import this into any of the desired container/component using
+    - ```
+      import lottie from 'lottie-web';
+      import React, {useRef,useEffect } from "react";
+      export default function BannerImg(){
+      const container = useRef(null)
+      useEffect(() => {
+        lottie.loadAnimation({
+          container: container.current,
+          renderer: 'svg',
+          loop: true,
+          autoplay: true,
+          animationData: require('./banner.json')})}, [])
+        return (
+          <div className="App">
+            <div className="container" ref={container}></div>
+          </div>);} 
+      ```
+    - here, `banner.json` is your downloaded animated file
+
+- Static pngs/svgs/jpeg
+  - you need to add the desired pngs to the same folder of `any-component.js`
+  - U need to uncomment the following code and remove the above animated lottie's code
+  - ```
+    class BannerImg extends Component {
+    render() {
+      return (
+        <div className="App">
+          <div className="container">
+            <img src={banner} alt="" width="550" />
+          </div>
+        </div>
+        );}
+      }
+    export default BannerImg;
+    ```
+
+  - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
+  - ```python
+    // Website related settings
+    const settings = {
+      isSplash: true,
+    };
+    ```
+  - Change `isSplash` from `true` to `false`.
+  - Now, if you see your website using `npm start`, it will directly open `home` rather than logo `splash` screen.
+  - You can change it from `src/assets/logo` and replace with your own signature logo
+
 
 ### Splash Logo
 
@@ -90,6 +145,7 @@ Note here that if you click [my portfolio](https://rohankokkula.netlify.app), yo
     ```
   - Change `isSplash` from `true` to `false`.
   - Now, if you see your website using `npm start`, it will directly open `home` rather than logo `splash` screen.
+  - You can change it from `src/assets/logo` and replace with your own signature logo
 
 # Deployment 📦
 
@@ -124,6 +180,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 # References 👏🏻
 
-- Some Design and Implementation Ideas are taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio).
-
-- Some Design and Implementation Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio).
+- Some Design and Implementation Ideas are taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio) & [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio)
