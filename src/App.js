@@ -8,7 +8,7 @@ import { GlobalStyles } from "./global";
 import ReactGA from "react-ga";
 function App() {
   useEffect(() => {
-    console.log(track);
+    // Change this below tracking id to your own
     ReactGA.initialize("UA-199564465-1");
   });
   return (
