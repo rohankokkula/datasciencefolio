@@ -1,5 +1,5 @@
 <p align="center"> 
-    <img src="repo_images/banner-01.png" align="center" height="150"></img>
+    <img src="repo_images/banner-01.png" align="center"></img>
 </p>
 
 <h1 align="center"> Software Developer Master Portfolio 🔥 </h1> 
