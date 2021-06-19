@@ -6,12 +6,10 @@ import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
 
 import ReactGA from "react-ga";
-require('dotenv').config()
-const track=process.env.TRACKING_ID;
 function App() {
   useEffect(() => {
     console.log(track);
-    ReactGA.initialize(track);
+    ReactGA.initialize("UA-199564465-1");
   });
   return (
     <ThemeProvider theme={chosenTheme}>
