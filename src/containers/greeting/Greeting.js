@@ -22,7 +22,7 @@ export default function Greeting(props) {
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
                 I'm <mark data-entity="person">{greeting.sub}</mark>
               </h1>
-              <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
+              <h1 className="greeting-typewriter" style={{color: theme.blue}}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
@@ -47,8 +47,7 @@ export default function Greeting(props) {
               </h1>
               <span
                 className="greeting-text-span subTitle"
-                style={{ color: theme.text }}
-              >
+                style={{ color: theme.text }}>
                 <div className="entities">
                   A <mark data-entity="noun">Data Science practitioner</mark>{" "}
                   who thrives to{" "}
