@@ -51,7 +51,7 @@ To view a live example, **[click here](https://rohankokkula.netlify.app/)**
 
 # Customize it to make your own portfolio ✏️
 
-In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **src/portfolio.js**, **src/assets**,**src/assets/logo** and **src/App.js**.
+In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **src/portfolio.js**, **src/assets**,**src/assets/logo** and **Google Analytics Tracking ID**.
 
 ### Personal Information
 
@@ -119,18 +119,8 @@ So basically I demonstrated 2 types of visual graphics.
       }
     export default BannerImg;
     ```
-
-  - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
-  - ```python
-    // Website related settings
-    const settings = {
-      isSplash: true,
-    };
-    ```
-  - Change `isSplash` from `true` to `false`.
-  - Now, if you see your website using `npm start`, it will directly open `home` rather than logo `splash` screen.
-  - You can change it from `src/assets/logo` and replace with your own signature logo
-
+- to save up your time and get you out of confusion, I've created both the versions(animated & static svgs) and commented it out.
+- So if you don't like to use animated svgs, just delete that code and uncomment the function for static svgs
 
 ### Splash Logo
 
@@ -147,6 +137,19 @@ Note here that if you click [my portfolio](https://rohankokkula.netlify.app), yo
   - Now, if you see your website using `npm start`, it will directly open `home` rather than logo `splash` screen.
   - You can change it from `src/assets/logo` and replace with your own signature logo
 
+
+### Google Analytics Tracking ID
+
+- First, you need to set up your Google Analytics Account.
+- Follow these resources for seamless setup
+    - [Easy Google Analytics 4 Setup 2021](https://www.youtube.com/watch?v=dPYx-eS4gyE)
+    - [Track Users In Your React App With Google Analytics](https://www.youtube.com/watch?v=pBeKlQ6CMJM)
+- You'll be needing a Trackin-ID for your website which normally looks like `UA-199564465-1`
+- Do not get confused between Tracking-ID & Measurement ID. Both are Different.
+- Once you get the tracking ID, go to `src/App.js` and replace your tracking ID
+Note: Do not use Firefox Browser for testing the ID. Use Chrome instead.
+
+
 # Deployment 📦
 
 - Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
@@ -157,8 +160,7 @@ Note here that if you click [my portfolio](https://rohankokkula.netlify.app), yo
     -   Now, click on `New site from Git` and connect it with your github account
     -   You will find the entire list of your repositories, select your portfolio repo.
     -   Click on `Deploy site`
-    -   Tadaa! Your site is getting deployed.
-
+    -   Tadaa! Your site is live!
 
 # Technologies used 🛠️
 
@@ -169,14 +171,13 @@ Note here that if you click [my portfolio](https://rohankokkula.netlify.app), yo
 - [react-reveal](https://www.react-reveal.com/)
 - [styled-components](https://styled-components.com/)
 
-# illustrations 🍥
+# Animations 🍥
 
-- [UnDraw](https://undraw.co/illustrations)
+- [lottiefiles](https://lottiefiles.com)
 
 # License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
 
 # References 👏🏻
 
