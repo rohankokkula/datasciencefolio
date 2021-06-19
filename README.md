@@ -29,7 +29,7 @@
 ✔️ Experience & Education \
 ✔️ Projects\
 ✔️ Contact\
-
+<br>
 To view a live example, **[click here](https://rohankokkula.netlify.app/)**
 
 # Clone And Use 📋
@@ -75,7 +75,7 @@ You can change the personal information, experience, education, social media, ce
 
 If you want to play around with alignment or CSS, the specific component's css is present in the same folder.
 
-# Assets
+### Assets
 
 So basically I demonstrated 2 types of visual graphics.
 - Animated graphics([lottiefiles](https://lottiefiles.com/))
