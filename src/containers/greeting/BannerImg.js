@@ -1,5 +1,6 @@
-import React, {useRef,useEffect } from "react";
-import lottie from 'lottie-web';
+import React from "react";
+// import lottie from 'lottie-web';
+// import React, {useRef,useEffect } from "react";
 import { Component } from "react";
 import banner from "./greeting-01.svg"
 

@@ -1,5 +1,6 @@
-import React, {useRef,useEffect,Component } from "react";
-import lottie from 'lottie-web';
+import React, {Component } from "react";
+// import React, {useRef,useEffect,Component } from "react";
+// import lottie from 'lottie-web';
 import data from "./web.svg"
 // export default function FullStackImg(){
 //     const container = useRef(null)
