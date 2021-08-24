@@ -61,6 +61,9 @@ body {
 #root {
   width: 101vw;
 }
+.noUnderline {
+  text-decoration: none;
+}
 /* Media Query */
 @media (max-width: 1380px) {
   html,

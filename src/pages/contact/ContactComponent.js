@@ -43,7 +43,7 @@ class Contact extends Component {
                   <Button
                     text="Drop a mail"
                     newTab={true}
-                    href="mailto:rohankokkula01@gmail.com"
+                    href="mailto:nicholas.khami@gmail.com"
                     theme={theme}
                   />
                 </div>
@@ -65,12 +65,14 @@ class Contact extends Component {
                 >
                   {phoneSection["title"]}
                 </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.blue }}
-                >
-                  {phoneSection["subtitle"]}
-                </p>
+                <a className="noUnderline" href="tel:+12487614355">
+                  <p
+                    className="contact-header-detail-text subTitle"
+                    style={{ color: theme.blue }}
+                  >
+                    {phoneSection["subtitle"]}
+                  </p>
+                </a>
               </div>
             </div>
           </Fade>
