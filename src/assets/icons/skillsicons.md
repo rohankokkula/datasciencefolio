@@ -1,1 +1,0 @@
-skills and software icons
