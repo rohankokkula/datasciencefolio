@@ -4,42 +4,42 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Rohan Kokkula | Portfolio",
+  title: "Imene KOLLI | Portfolio",
   description:
-    "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX",
+    "A Data Scientist with a Master's degree in Applied Statistics who thrives to create AI-based solutions using machine learning along with Natural Language Processing",
   og: {
-    title: "Rohan Portfolio",
+    title: "Imene Portfolio",
     type: "website",
-    url: "http://rohankokkula.ml/",
+    url: "",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Namaste!",
-  sub: "Rohan Kokkula",
-  logo_name: "Rohan Kokkula",
-  resumeLink: "",
+  title: "Hello!",
+  sub: "Imene KOLLI",
+  logo_name: "Imene KOLLI",
+  resumeLink: "https://drive.google.com/file/d/19Y6VqLjncHbmL8nfNFqTkD9rA6uYfaei/view?usp=sharing",
 };
 
 // home logos
 const competitiveSites = {
   competitiveSites: [
     {
+      siteName: "LinkedIn",
+      iconifyClassname: "simple-icons:linkedin",
+      style: {
+        color: "#0077b5",
+      },
+      profileLink: "https://www.linkedin.com/in/imenekolli/",
+    },
+    {
       siteName: "Github",
       iconifyClassname: "simple-icons:github",
       style: {
         color: "white",
       },
-      profileLink: "https://github.com/rohankokkula",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/rohankokkula01",
+      profileLink: "https://github.com/imene-swaan",
     },
     {
       siteName: "Kaggle",
@@ -47,31 +47,23 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/rohan0301",
+      profileLink: "https://www.kaggle.com/imene0swaaaan",
     },
     {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
+      siteName: "Sololearn",
+      iconifyClassname: "simple-icons:sololearn",
       style: {
-        color: "#323754",
+        color: "white",
       },
-      profileLink: "https://www.hackerearth.com/@rohankokkula",
+      profileLink: "https://www.sololearn.com/profile/16182357",
     },
     {
-      siteName: "LinkedIn",
-      iconifyClassname: "simple-icons:linkedin",
+      siteName: "HackerRank",
+      iconifyClassname: "simple-icons:hackerrank",
       style: {
         color: "#0077b5",
       },
-      profileLink: "https://www.linkedin.com/in/rohankokkula/",
-    },
-    {
-      siteName: "HashNode",
-      iconifyClassname: "simple-icons:hashnode",
-      style: {
-        color: "#2962ff",
-      },
-      profileLink: "",
+      profileLink: "https://www.hackerrank.com/imenekolli",
     },
   ],
 };
@@ -80,127 +72,41 @@ const competitiveSites = {
 const skills = {
   data: [
     {
-      title: "Data Science & Analysis",
+      title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production-ready models for various deep learning and statistical use cases",
-        "⚡ Experience in working with Computer Vision using OpenCV and NLP projects(T5-Transformer & OpenAI)",
-        "⚡ Having good hands-on with Data Cleaning, processing & Analysing using Pandas, Tableau & PowerBI",
-        "⚡ Experience with Text-to-speech encoders/decoders (speech synthesis) & Voice Cloning",
+        "⚡ Developing highly scalable Machine learning & Deep learning models",
+        "⚡ Experience in working with NLP & Sentiment analysis projects",
+        "⚡ Hands-on experience with Data cleaning, processing, & analysing ",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "SAS",
+          icon_url: "sas.png",
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "NumPy",
-          fontAwesomeClassname: "logos-numpy",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Tableau",
-          fontAwesomeClassname: "logos-tableau",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "XLstat",
+          icon_url: "xlstat.png"
+          
         },
       ],
     },
     {
-      title: "Web Development",
+      title: "Statistics",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive websites using HTML5, CSS3, BootStrap5, ReactJS & NodeJS",
-        "⚡ Creating application backend in Node, Flask & Streamlit",
-        "⚡ Having experience in Domain & Hosting using Netlify, Vercel, Heroku & Hostinger",
-      ],
+        "⚡ Analyze and better understand data, and solve complex business and research problems.",
+        "⚡ Ensured accurate data visualization and interpretation using various computer software and applications",
+        "⚡ Produced final statistics reports outlining key project insights providing recommendations"],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
+          skillName: "SAS",
+          icon_url: "sas.png",
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "BootStrap",
-          fontAwesomeClassname: "logos-bootstrap",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
+          skillName: "SPSS",
+          icon_url: "spss3.png",
+        }
       ],
     },
     {
@@ -214,33 +120,9 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Adobe Photoshop",
-          fontAwesomeClassname: "simple-icons:adobephotoshop",
-          style: {
-            color: "#2fa3f7",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
+          skillName: "SAS",
+          icon_url: "sas.png",
+        }
       ],
     },
   ],
@@ -452,42 +334,63 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
-        title: "Data Scientist",
-        subtitle: "Nactus India Services Private Limited",
-        date: "June 2020 - present",
+        title: "Growth Developer",
+        image: "bp.png",
+        subtitle: "Botpress",
+        date: "July 2021 - present",
         content: [
           "Used T5 Transformer Model to build a Question Answering Model which generates questions based on Keywords extracted (WordNet, Sense2Vec) from studyshot notes.",
           "Built an MCQ Generation model using BERT",
           "Developed a personalized Chatbot using Rasa (Botfront.io).",
           "Created an Automatic Thumbnail Generator & Uploader for our youtube videos using Youtube v3 API",
-          "Working on OpenAI's semantic search engine.",
+          "Worked on OpenAI's semantic search engine and it's various APIs",
           "Created a Clean MaterialUI Design for prototyping and design fixing before production-ready of APP",
           "Created FrontEnd components for StudyShot website",
-          "Working on recommendation system for concept notes and questions based on student's behavior on our Flutter App(tracking)",
+          "Worked on recommendation system for concept notes and questions based on student's behavior on our Flutter App(tracking)",
+        ],
+      },
+      {
+        title: "Data Scientist",
+        image: "nactus.png",
+        subtitle: "Nactus India Services Private Limited",
+        date: "July 2020 - June 2021",
+        content: [
+          "Used T5 Transformer Model to build a Question Answering Model which generates questions based on Keywords extracted (WordNet, Sense2Vec) from studyshot notes.",
+          "Built an MCQ Generation model using BERT",
+          "Developed a personalized Chatbot using Rasa (Botfront.io).",
+          "Created an Automatic Thumbnail Generator & Uploader for our youtube videos using Youtube v3 API",
+          "Worked on OpenAI's semantic search engine and it's various APIs",
+          "Created a Clean MaterialUI Design for prototyping and design fixing before production-ready of APP",
+          "Created FrontEnd components for StudyShot website",
+          "Worked on recommendation system for concept notes and questions based on student's behavior on our Flutter App(tracking)",
         ],
       },
       {
         title: "Machine Learning Intern",
+        image: "listnr.jpeg",
         subtitle: "Listnr",
         date: "April 2020 - June 2020",
         content: [
-          "My role at Listnr included a lot of research work about Audio Encoders and Vocoders and Speech Synthesis in general.",
-          "Worked on some SOTA Inference TTS Models such as TacoTron2, FastSpeech2, and Wavenet.",
-          "Also had hands-on with real-time voice cloning algorithm.",
+          "Intensive research on Human-like Speech Synthesis(Text-to-speech)",
+          "Worked with Tensorflow WaveNet (Generative Neural Network)",
+          "Had Hands-on with TacoTron2, FastSpeech2 & MozillaTTS API",
+          "Implemented voice cloning architecture (WaveGlow) which clones input voices based on parsed text.",
         ],
       },
       {
         title: "Data Science Intern",
+        image: "ineuron.png",
         subtitle: "iNeuron.ai",
         date: "Nov 2020 - January 2021",
         content: [
-          "Phase 1 included Data Cleaning & Data Annotation for object detection task",
-          "Used YOLO v5 for Fire Detection Project",
+          "Data Cleaning & Data Annotation using LabelMe & LabelImg for the object detection tasks",
+          "Used YOLO v5 on Fire Detection Project",
         ],
       },
       {
         title: "Summer Analytics Participant",
         subtitle: "IIT Guwahati",
+        image: "iitg.svg",
         date: "April 2020 - June 2020",
         content: [
           "Learnt & applied various Machine Learning libraries",
@@ -510,12 +413,15 @@ const resumeright = {
           subtitle: "Vidyalankar Institute of Technology, Mumbai",
           date: "2016 - 2020",
           content: ["CGPA: 8.06/10"],
+          image: "vit.png",
+          
         },
         {
           title: "Higher Secondary Certificate [HSC]",
           subtitle: "Dr. Antonio Da Silva Technical Jr. College, Mumbai",
           date: "2014 - 2016",
           content: ["Precentage: 80%"],
+          image: "bp.png",
         },
       ],
     },
@@ -524,6 +430,7 @@ const resumeright = {
       data: [
         {
           title: "Ranks",
+          image: "bp.png",
           content: [
             "#135/854 in Summer Analytics Kaggle Competition by IITG",
             "#113/5064 in CV-NLP Hackathon by HackerEarth",
@@ -531,6 +438,7 @@ const resumeright = {
         },
         {
           title: "Achievements",
+          image: "bp.png",
           content: [
             "Designing Team Head at ACM-VIT",
             "5⭐ Gold Badges for Python & Problem Solving at HackerRank ",
@@ -544,6 +452,7 @@ const resumeright = {
       data: [
         {
           title: "Consultancy Website",
+          image: "bp.png",
           subtitle: "kidsworldeducationconsultants.com",
           content: [
             "Created and hosted a website for consultancy providers in Kids Education Domain",
@@ -552,6 +461,7 @@ const resumeright = {
         {
           title: "Portfolio Website",
           subtitle: "pranavphulware.netlify.app",
+          image: "bp.png",
           content: [
             "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
           ],
@@ -603,7 +513,7 @@ const certifications = {
       subtitle: "Summer Analytics | IIT Guwahati",
       logo_path: "iitg-01.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://drive.google.com/file/d/1cnJUb79Ycn8hDnN0xB7Xm5eZ5zn24UPY/view?usp=sharing",
       alt_name: "IITG",
       color_code: "#000000",
     },
@@ -611,8 +521,7 @@ const certifications = {
       title: "Tableau Desktop Qualified Associate",
       subtitle: "SimpliLearn",
       logo_path: "simplilearn-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+      certificate_link: "https://certificates.simplicdn.net/share/1723378.pdf",
       alt_name: "Simplilearn",
       color_code: "#000000",
     },
@@ -630,7 +539,7 @@ const certifications = {
       subtitle: "Stanford University",
       logo_path: "coursera-01.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://www.coursera.org/account/accomplishments/verify/B5T96FW3DAX7",
       alt_name: "Stanford University",
       color_code: "#000000",
     },
@@ -639,7 +548,7 @@ const certifications = {
       subtitle: "University of Michigan",
       logo_path: "coursera-01.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://www.coursera.org/account/accomplishments/verify/3F8B7AS9AZH4",
       alt_name: "University of Michigan",
       color_code: "#000000",
     },
@@ -658,7 +567,7 @@ const certifications = {
       logo_path: "ineuron-01.png",
       certificate_link:
         "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
-      alt_name: "HackerRank",
+      alt_name: "Tableau",
       color_code: "#000000",
     },
     {
@@ -667,7 +576,7 @@ const certifications = {
       logo_path: "ineuron-01.png",
       certificate_link:
         "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
-      alt_name: "HackerRank",
+      alt_name: "Tableau",
       color_code: "#000000",
     },
   ],
@@ -695,8 +604,7 @@ const contactPageData = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://www.linkedin.com/in/rohankokkula/",
-    iconifyClassname: "simple-icons:hackerrank",
+    link: "https://www.github.com/rohankokkula/",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
