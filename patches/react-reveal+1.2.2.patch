@@ -1,0 +1,26 @@
+diff --git a/node_modules/react-reveal/src/RevealBase.js b/node_modules/react-reveal/src/RevealBase.js
+index b7df761..80694fe 100644
+--- a/node_modules/react-reveal/src/RevealBase.js
++++ b/node_modules/react-reveal/src/RevealBase.js
+@@ -370,7 +370,7 @@ class RevealBase extends React.Component {
+     };
+   }
+ 
+-  componentWillReceiveProps (props) {
++  UNSAFE_componentWillReceiveProps (props) {
+     if (props.when !== undefined)
+       this.isOn = !!props.when;
+     if (props.fraction !== this.props.fraction)
+diff --git a/node_modules/react-reveal/src/lib/responsive.js b/node_modules/react-reveal/src/lib/responsive.js
+index b5cd594..fd62e3b 100644
+--- a/node_modules/react-reveal/src/lib/responsive.js
++++ b/node_modules/react-reveal/src/lib/responsive.js
+@@ -57,7 +57,7 @@ function responsive( WrappedComponent, {effect, breakpoint = '768px', ...rest }
+       this.newQuery(this.props.query);
+     }
+ 
+-    componentWillReceiveProps({ query }) {
++    UNSAFE_componentWillReceiveProps({ query }) {
+       this.newQuery(query);
+     }
+ 
