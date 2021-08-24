@@ -4,7 +4,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Rohan Kokkula | Portfolio",
+  title: "Nicholas Khami | Portfolio",
   description:
     "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX",
   og: {
@@ -16,9 +16,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Namaste!",
-  sub: "Rohan Kokkula",
-  logo_name: "Rohan Kokkula",
+  title: "Hello!",
+  sub: "Nicholas Khami",
+  logo_name: "Nicholas Khami",
   resumeLink: "",
 };
 

@@ -58,6 +58,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#root {
+  width: 101vw;
+}
 /* Media Query */
 @media (max-width: 1380px) {
   html,
