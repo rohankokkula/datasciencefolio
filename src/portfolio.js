@@ -84,11 +84,6 @@ const skills = {
           skillName: "SAS",
           icon_url: "sas.png",
         },
-        {
-          skillName: "XLstat",
-          icon_url: "xlstat.png"
-          
-        },
       ],
     },
     {
