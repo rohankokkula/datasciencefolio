@@ -42,6 +42,7 @@ To view a live example, **[click here](https://rohankokkula.netlify.app/)**
      git clone https://github.com/rohankokkula/datasciencefolio.git
     ```
   - This will clone the whole repository in your system.
+- `nvm use` to use the project's v12 node version so you don't have to see millions of node module errors :) 
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
   - ```python
     npm install
