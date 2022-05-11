@@ -695,7 +695,7 @@ const contactPageData = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://www.linkedin.com/in/rohankokkula/",
+    link: "https://github.com/rohankokkula",
     iconifyClassname: "simple-icons:hackerrank",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
@@ -708,7 +708,7 @@ const socialMediaLinks = [
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
+    link: "https://www.youtube.com/c/rohanalytics",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
